@@ -1,0 +1,11 @@
+{
+    "telegram": {
+        "bot_token_encrypted": "",
+        "chat_id_encrypted": "",
+        "enabled": false
+    },
+    "scan": {
+        "threads": 10,
+        "timeout": 5
+    }
+}

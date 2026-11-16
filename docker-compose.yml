@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  trx-arsenal:
+    build: .
+    volumes:
+      - ./tools:/app/tools
+      - ./weapons:/app/weapons
+      - ./reports:/app/reports
+      - ./targets:/app/targets
+    stdin_open: true
+    tty: true
